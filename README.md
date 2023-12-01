@@ -20,9 +20,9 @@ This script uses Docker Compose to launch the Jenkins master container and copie
 ### 2. Set Up Jenkins Agents
 Run the following Docker Compose command to start Jenkins agents:
 
-bash
-Copy code
+```bash
 docker-compose -f agents-compose.yml up -d
+```
 This will create Jenkins agent containers with SSH connectivity.
 
 ### 3. Jenkins Plugins
