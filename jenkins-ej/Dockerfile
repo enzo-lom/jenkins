@@ -49,4 +49,5 @@ RUN jenkins-plugin-cli \
     javax-mail-api \
     ws-cleanup \
     aws-global-configuration \
-    build-timeout 
+    build-timeout \
+    ssh-slaves
